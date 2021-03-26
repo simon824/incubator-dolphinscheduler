@@ -50,7 +50,7 @@ public class AlertDao extends AbstractBaseDao {
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
     @Autowired
-    private AlertMapper alertMapper;
+    private AlertMapper  alertMapper;
 
     @Autowired
     private AlertPluginInstanceMapper alertPluginInstanceMapper;
